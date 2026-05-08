@@ -6,7 +6,7 @@ pipeline {
  
     // ── Global environment variables ──────────────────────
     environment {
-        DOCKER_HUB_USER  = 'Zainabshakil'
+        DOCKER_HUB_USER  = 'zainabshakil'
         IMAGE_NAME       = 'cyber-def25'
         IMAGE_TAG        = "${IMAGE_NAME}:${BUILD_NUMBER}"
         IMAGE_LATEST     = "${IMAGE_NAME}:latest"
