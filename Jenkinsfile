@@ -22,7 +22,6 @@ pipeline {
             steps {
                 echo 'Cloning repository from GitHub...'
                 git branch: 'main',
-                    credentialsId: 'github-credentials',
                     url: 'https://github.com/Zainab-Shakil/cyber-def25'
                 echo 'Code checkout complete.'
             }
